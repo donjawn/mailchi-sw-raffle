@@ -12,7 +12,7 @@ def main(limit):
         num = getrandbits(40)
         firstname = 'firstname{}'.format(num) # put your name here, don't remove the {}
         lastname = 'lastname{}'.format(num) # put your name here, don't remove the {}
-        phone = 'cell'
+        phone = 'cell' # your phone number here no dashes or spaces
         email = 'your_email+{}@gmail.com'.format(num) # CHANGE YOUR_EMAIL to your email prefix. don't change the +{} after.
         payload = {
             'u': '4c3c77a19f16808f6714b45b9',
@@ -31,4 +31,7 @@ def main(limit):
 if __name__ == "__main__":
     x = int(raw_input("How many entries do you want: "))
     main(x)
+
+# ALL CREDIT GOES TO github user yousefissa
+# THIS SCRIPT IS MODIFICATION TO HIS PREEXISTING SCRIPTS
 
